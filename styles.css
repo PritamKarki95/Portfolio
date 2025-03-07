@@ -383,6 +383,7 @@
     height: 45px;
     width: 45px;
     object-fit: cover;
+    margin-left: -70px;
     border-radius: 50%;
     border: 2px solid #4169e1;
     box-shadow: 0 0 15px rgba(65, 105, 225, 0.5);
