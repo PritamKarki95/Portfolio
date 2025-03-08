@@ -228,6 +228,13 @@
     border: 1px solid #64ffda !important;
   }
   
+  .light .btn{
+    color: #2f4166;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: 2px solid #2f4166 !important;
+  }
+  
   .dark-mode .btn:hover {
     color: #e6f1ff;
     box-shadow: 0 0 15px rgba(100, 255, 218, 0.5);
@@ -444,11 +451,17 @@
   }
   
   .social-links a {
-    color: #333;
+    /* color: #333; */
     font-size: 1.2rem;
     transition: all 0.3s ease;
   }
-  
+
+  .light-mode .social-links a{
+    color: #333;
+  }
+  .dark-mode .social-links a{
+    color: white;
+  }
   .social-links a:hover {
     color: #4169e1;
     transform: translateY(-3px);
