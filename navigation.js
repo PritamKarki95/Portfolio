@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
   document.body.classList.add(prefersDarkMode ? "dark-mode" : "light-mode")
+  document.body.classList.remove(prefersDarkMode ? "light-mode" : "dark-mode");
   document.getElementById("darkModeToggle").textContent = prefersDarkMode ? "☀️" : "🌙"
 
   const roleText = document.getElementById("roleText")
